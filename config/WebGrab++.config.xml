@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<settings>
+  <filename>/data/ar_arab.xmltv</filename>
+  <mode>m</mode>
+  <postprocess run="n" grab="y">mdb</postprocess>
+  <proxy>automatic</proxy>
+  <user-agent>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; yie9)</user-agent>
+  <logging>on</logging>
+  <retry time-out="15">0</retry>
+  <skip>12,1</skip>
+  <timespan>0</timespan>
+  <update>i</update>
+   <channel update="i" site="elcinema.ar.com" site_id="1171" xmltv_id="Future TV">Future TV</channel>
+   <channel update="i" site="mbc.net.en" site_id="mbc1-me" xmltv_id="MBC 1">MBC 1</channel>
+   <channel update="i" site="osn.com" site_id="OM1" xmltv_id="OSN Movies First HD">OSN Movies First HD</channel>
+   <channel update="i" site="invision.com.sa" site_id="754##page=8" xmltv_id="MBC Pro Sports 3 HD">MBC Pro Sports 3</channel>
+   <channel update="i" site="seevii.com" site_id="695" xmltv_id="Imagine Movies">Imagine Movies</channel>
+   <channel update="i" site="bein.net" site_id="mena_sports/HD1" xmltv_id="HD1">HD1</channel> 
+</settings>
