@@ -1,8 +1,8 @@
-#webgrabUpdateChannels
+# WebgrabUpdateChannels
 
 Updating channels indices (siteini.pack) for webgrab++
 
-# Example
+## Example
 
 The dummy WebGrab++.config.xml file must be located into the config folder
 
