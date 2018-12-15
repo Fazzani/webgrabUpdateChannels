@@ -1,0 +1,23 @@
+language: ruby
+sudo: required
+dist: trusty
+os:
+  - linux
+branches:
+  only:
+    - master
+services:
+  - docker
+script: |
+  docker run -it --rm \
+  -e PAT=$PAT \
+  -v "$(pwd)/config:/config" \
+  --entrypoint="/defaults/updateChannels.sh" \
+  synker/webgraboneshot:latest
+
+notifications: # set notification options
+  email:
+    recipients:
+      - tunisienheni@gmail.com
+    on_success: change
+    on_failure: change
