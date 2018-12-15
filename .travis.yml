@@ -11,6 +11,7 @@ services:
 script: |
   docker run -it --rm \
   -e PAT=$PAT \
+  -e WEBGRAB_URL=$WEBGRAB_URL \
   -v "$(pwd)/config:/config" \
   --entrypoint="/defaults/updateChannels.sh" \
   synker/webgraboneshot:latest
