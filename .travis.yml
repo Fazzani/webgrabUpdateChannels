@@ -14,7 +14,7 @@ script: |
   -e WEBGRAB_URL=$WEBGRAB_URL \
   -v "$(pwd)/config:/config" \
   --entrypoint="/defaults/updateChannels.sh" \
-  synker/webgraboneshot:latest
+  synker/webgraboneshot:90
 
 notifications: # set notification options
   email:
