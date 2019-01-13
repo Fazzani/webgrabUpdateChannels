@@ -10,10 +10,11 @@
   <skip>12,1</skip>
   <timespan>0</timespan>
   <update>i</update>
-   <channel update="i" site="elcinema.ar.com" site_id="1171" xmltv_id="Future TV">Future TV</channel>
+   <channel update="i" site="elcinema.en.com" site_id="1171" xmltv_id="Future TV">Future TV</channel>
    <channel update="i" site="mbc.net.en" site_id="mbc1-me" xmltv_id="MBC 1">MBC 1</channel>
    <channel update="i" site="osn.com" site_id="OM1" xmltv_id="OSN Movies First HD">OSN Movies First HD</channel>
    <channel update="i" site="invision.com.sa" site_id="754##page=8" xmltv_id="MBC Pro Sports 3 HD">MBC Pro Sports 3</channel>
    <channel update="i" site="seevii.com" site_id="695" xmltv_id="Imagine Movies">Imagine Movies</channel>
-   <channel update="i" site="bein.net" site_id="mena_sports/HD1" xmltv_id="HD1">HD1</channel> 
+   <channel update="i" site="bein.net" site_id="mena_sports/HD1" xmltv_id="HD1">HD1</channel>
+   <channel update="i" site="telerama.fr" site_id="france-2,4" xmltv_id="France 2">France 2</channel>
 </settings>
